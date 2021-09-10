@@ -1,3 +1,6 @@
+#ifndef POOL_COMMON_POOL_HPP
+#define POOL_COMMON_POOL_HPP
+
 #include <cstdint>
 #include <mutex>
 #include <condition_variable>
@@ -144,3 +147,5 @@ CommonPool<T>::CommonPool(uint32_t size) :
 {
 
 }
+
+#endif
