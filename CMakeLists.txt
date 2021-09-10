@@ -12,6 +12,7 @@ include(CTest)
 enable_testing()
 
 add_subdirectory(pool)
+add_subdirectory(cache)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
