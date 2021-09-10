@@ -8,6 +8,7 @@ enable_testing()
 include_directories(../)
 
 add_executable(testCommonPool testCommonPool.cc)
+add_executable(testObjectPool testObjectPool.cc)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
